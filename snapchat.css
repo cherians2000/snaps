@@ -1,0 +1,166 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+nav{
+  padding: 1%;
+  background-color: yellow;
+  height: 20px;
+  display: flex;
+  justify-content: left;
+  position: fixed;
+  top: 0;
+}
+.c1{
+  display: flex;
+}
+.logo{
+  display: flex;
+  margin-inline: 5px;
+}
+.logo .logo1{
+  padding: 1%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+.c1 input{
+  margin-top: 1px;
+  border-radius: 60px;
+  border-color: black;
+  background-color: yellow;
+  height: 30px;
+  margin-right: 200px;
+  
+}
+.c1 .logo {
+ 
+  margin-inline: 10px;
+}
+li
+{
+  font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  list-style: none;
+  padding-left: 30px;
+}
+ul{
+  display: flex;
+  cursor: pointer;
+}
+.headlights{
+  display: flex;
+  margin-inline: 5px;
+  
+}
+.buttons{
+  display: flex;
+}
+.buttons button{
+  margin-inline: -340px;
+  margin-left: 345px;
+  height: 35px;
+  width: 110px;
+  border-radius: 30px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.b1:hover{
+  opacity: 0.8;
+ }
+ .b1:active{
+  background-color: #777;
+  transition: 0.5s;
+ }
+ .b2:hover{
+  opacity: 0.8;
+ }
+ .b2:active{
+  background-color: #777;
+  transition: 0.5s;
+ }
+ 
+
+.headlights .buttons{
+  margin-inline: 100px;
+}
+.buttons .menu button{
+  height: 35;
+  width: 3;
+}
+/*-------------------------1------------------------*/
+.text1{
+  font-size: 60px;
+  font-family:"Avenir Next", Helvetica, sans-serif ;
+ font-weight: 100;
+}
+.text2{
+  font-size: 27px;
+}
+.button1{
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+ size: 50px;
+ border-radius: 30px;
+ width: 250px;
+ height: 50px;
+ cursor: pointer;
+ font-size: 21px;
+ font-weight: 600;
+}
+.m1{
+  display: flex;
+  padding: 9%;
+  background-color: yellow;
+  
+}
+.m1 .c2{
+  margin-top: 70px;
+}
+.m1 img{
+  height: 450p;
+}
+/*--------------------------2---------------------*/
+.footer{
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  width: ;
+}
+.footer .footer1{
+  margin-inline: 100px;
+  font-family: "Avenir Next", Helvetica, sans-serif;
+  font-weight: 100;
+}
+.language{
+  margin-left: 220px;
+  padding: 1%;
+  padding-top: 1px;
+}
+.language .languagebutton{
+ background-color: white;
+ padding-bottom: 3px;
+ padding-right: 100px;
+ padding-top: 3px;
+ padding-left: 6px;
+  cursor: pointer;
+}
+/*--------------------------4-------------------*/
+.final{
+  padding: 3%;
+  background-color: #262626;
+  display: flex;
+  color: white;
+  font-family: "Avenir Next", Helvetica, sans-serif;
+font-size: 14px;
+}
+.f1{
+  margin-left: 190px;
+
+}
+.final .f2{
+  margin-left: 30px;
+}
+
